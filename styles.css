@@ -1,0 +1,88 @@
+  *,::after,::before{
+      box-sizing: border-box;
+  }
+
+body{
+    margin:0;
+}
+.titulo{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.container-banderas{
+    margin:auto;
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  
+}
+.bandera{
+    margin:auto;
+    margin-bottom:2rem;
+    width: 230px;
+    height: 150px;
+    border:1px solid black;
+    text-align: center;
+    position: relative;
+}
+
+
+/*=====peru=========*/
+.bandera--peru{
+    background: url("./insignia/peru.png") center/ 60px no-repeat,
+                linear-gradient(to right,red 0, 33.3% ,white 33%, 66.6%, red 66.6%);
+}
+/*=====fin-peru=====*/
+
+/*=====uruguay========*/
+.bandera--uruguay{ 
+    color:white;
+    background: url("./insignia/uruguay.png")  12px  12px/ 60px no-repeat,
+                linear-gradient(white, white) top left/ 83px 83px no-repeat,
+                linear-gradient( to bottom ,white 0, 50%, #0038A8 50%) top / 33px 33px repeat;
+} 
+
+/*====chile=========*/
+.bandera--chile{
+    color:black;
+    background: url("./insignia/chile.png")  15px 5px / 60px no-repeat,
+                linear-gradient(#0000CC, #0000CC) top left/ 40% 50% no-repeat,
+                linear-gradient( to bottom ,white 0, 50%, red 50%) ;
+                
+}
+/*====jamaica=========*/
+
+.bandera--jamaica{
+    color:white;
+    background: linear-gradient(to top right,transparent 0,47%,gold 47%,53%,transparent 53%) center / 100% 100% no-repeat,
+                linear-gradient(to top left,transparent 0,47%,gold 47%,53%,transparent 53%) center / 100% 100% no-repeat,
+                conic-gradient( #008B16 0 ,16%, black 16% ,35%,#008B16 35% , 66%,black 65%, 84%, #008B16 84%) ;
+                
+}
+/*====japon=========*/
+
+.bandera--japon{
+    background:radial-gradient(circle 100px ,red 50%,white 50%) ;
+}
+/*====grecia=========*/
+
+.bandera--grecia{   
+    color: white;
+    background: linear-gradient(transparent 0,45%,white 45%,55%,transparent 55%) left top/ 82px 82px no-repeat,
+    linear-gradient(to right,transparent 0,45%,white 45%,55%,transparent 55%) top left/ 82px 82px no-repeat,
+    linear-gradient(#0D5BAA, #0D5BAA) top left/ 82px 82px no-repeat,
+    linear-gradient( to bottom ,#0D5BAA 0, 50%, white 50%) top / 33px 33px repeat;
+}
+/*=======alemania====*/
+.bandera--alemania{
+    background:linear-gradient( to bottom,black 0,33.3%,red 33.3%,66.6%,gold 66.6%);
+}
+/*=======panama========*/
+.bandera--panama{
+    color:#072357;
+    background:conic-gradient(#DA121A 0turn,0.25turn,white 0.25turn, 0.5turn,#072357 0.5turn, 0.75turn, white 0.75turn );
+    
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
