@@ -70,7 +70,7 @@ body{
 /*====grecia=========*/
 
 .bandera--grecia{   
-    color: white;
+    
     background: linear-gradient(transparent 0,45%,white 45%,55%,transparent 55%) left top/ 82px 82px no-repeat,
     linear-gradient(to right,transparent 0,45%,white 45%,55%,transparent 55%) top left/ 82px 82px no-repeat,
     linear-gradient(#0D5BAA, #0D5BAA) top left/ 82px 82px no-repeat,
@@ -78,6 +78,7 @@ body{
 }
 /*=======alemania====*/
 .bandera--alemania{
+    color:white;
     background:linear-gradient( to bottom,black 0,33.3%,red 33.3%,66.6%,gold 66.6%);
 }
 /*=======panama========*/
